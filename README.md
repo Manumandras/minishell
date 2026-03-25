@@ -1,9 +1,9 @@
 *This project has been created as part of the 42 curriculum by mmittelb, jnieders.*
 
-# Minishell -- Manushell & Minijonas
+# minishell -- manushell & minijonas
 ## Description
 
-Minishell is a simplified Unix shell written in C. The goal of the project is to understand and reimplement core shell behaviors: reading and parsing user input, handling quotes, expanding environment variables, managing redirections and pipes, executing builtins and external commands, and reacting to signals like a real interactive shell.The implementation is closely inspired by bash behavior, which was used as the reference where the subject leaves room for interpretation.
+minishell is a simplified Unix shell written in C. The goal of the project is to understand and reimplement core shell behaviors: reading and parsing user input, handling quotes, expanding environment variables, managing redirections and pipes, executing builtins and external commands, and reacting to signals like a real interactive shell.The implementation is closely inspired by bash behavior, which was used as the reference where the subject leaves room for interpretation.
 
 **At a high level, minishell provides the following features:**
 
