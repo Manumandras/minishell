@@ -13,6 +13,13 @@
 - Executes builtins in the correct process context (parent vs child) when required
 - Launches external programs via PATH lookup
 - Implements bash-like interactive signal behavior (ctrl-C, ctrl-D, ctrl-\)
+
+<br>
+
+## Platform support
+
+This project is developed for Unix-like systems, primarily Linux. It uses Unix-oriented tooling and a Makefile-based build system, so it is generally not intended to run natively on Windows without adaptation. On Windows, the recommended way to build and run it is through WSL.
+
 <br>
 
 ## Mandatory Features
@@ -34,6 +41,7 @@
 - unset
 - env
 - exit
+
 <br>
 
 ## Bonus Features
@@ -41,6 +49,7 @@
 - && and ||
 - Parentheses for priorities (...)
 - Wildcards * in the current working directory
+
 <br>
 
 ## Memory management (GC)
@@ -159,14 +168,3 @@ The following resources were used as primary references throughout the developme
   `signal`, `exit`, `open`, `close`, `read`, `write`, `access`,
   `chdir`, `getcwd`, `lstat`, `opendir`, `readdir`, `closedir`,
   `isatty`, `perror`, `strerror`
-
-<br>
-
-### Use of AI
-AI tools were used as a **supporting resource** during the development of this project.  
-They were primarily used to:
-- clarify theoretical background and expected shell behavior,
-- discuss edge cases and ambiguities in the subject,
-- assist with documentation wording and structure.
-
-AI was **not used to directly generate or copy complete implementations** of the project’s core logic. All code was written and integrated by the project authors.
