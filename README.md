@@ -18,7 +18,9 @@
 
 ## Platform support
 
-This project is developed for Unix-like systems, primarily Linux. It uses Unix-oriented tooling and a Makefile-based build system, so it is generally not intended to run natively on Windows without adaptation. On Windows, the recommended way to build and run it is through WSL.
+This project supports **Linux** and **macOS**.
+
+It relies on Unix-style system calls, terminal behavior, and a Makefile-based build system. The Makefile includes platform-specific handling for `readline`, including Homebrew support on macOS. Native Windows support is not provided; on Windows, the recommended way to build and run the project is through **WSL**.
 
 <br>
 
